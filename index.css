@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+body {
+  background-color: #fff9d0;
+  font-size: 20px;
+}
+.content {
+  background-color: white;
+  margin: 40px 150px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.content h1 {
+  font-family: "Young serif", serif;
+}
+.img {
+  border-radius: 15px;
+  object-fit: contain;
+  max-width: 100%;
+  align-self: center;
+}
+.preparation {
+  background-color: rgba(255, 192, 203, 0.841);
+  padding: 20px;
+  border-radius: 15px;
+}
+.preparation h3 {
+  color: #9b3922;
+  font-family: "Young serif", serif;
+}
+.ingredients {
+  border-bottom: 2px grey solid;
+}
+
+.ingredients h2 {
+  color: #9b3922;
+  font-family: "Young serif", serif;
+}
+
+.instructions {
+  border-bottom: 2px grey solid;
+  line-height: 2rem;
+}
+.instructions h2 {
+  color: #9b3922;
+  font-family: "Young serif", serif;
+}
+.instructions span {
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+}
+.nutrition h2 {
+  color: #6b240c;
+  font-family: "Young serif", serif;
+}
+
+table {
+  /* border-collapse: collapse; */
+  margin: 0 auto;
+  width: 50%;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+td {
+  color: #a94438;
+  font-size: 25px;
+}
